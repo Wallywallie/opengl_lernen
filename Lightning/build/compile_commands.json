@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/Document/ImmerLernen/opengl/Lightning/build",
+  "command": "D:\\Software\\Mingw\\mingw64\\bin\\gcc.exe  @CMakeFiles/GLAD.dir/includes_C.rsp -g -o CMakeFiles\\GLAD.dir\\dep\\glad\\src\\glad.c.obj -c D:\\Document\\ImmerLernen\\opengl\\Lightning\\dep\\glad\\src\\glad.c",
+  "file": "D:/Document/ImmerLernen/opengl/Lightning/dep/glad/src/glad.c",
+  "output": "CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj"
+},
+{
+  "directory": "D:/Document/ImmerLernen/opengl/Lightning/build",
+  "command": "D:\\Software\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/GLAD.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GLAD.dir\\src\\shader.cpp.obj -c D:\\Document\\ImmerLernen\\opengl\\Lightning\\src\\shader.cpp",
+  "file": "D:/Document/ImmerLernen/opengl/Lightning/src/shader.cpp",
+  "output": "CMakeFiles/GLAD.dir/src/shader.cpp.obj"
+},
+{
+  "directory": "D:/Document/ImmerLernen/opengl/Lightning/build",
+  "command": "D:\\Software\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/GLAD.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GLAD.dir\\src\\stb_image.cpp.obj -c D:\\Document\\ImmerLernen\\opengl\\Lightning\\src\\stb_image.cpp",
+  "file": "D:/Document/ImmerLernen/opengl/Lightning/src/stb_image.cpp",
+  "output": "CMakeFiles/GLAD.dir/src/stb_image.cpp.obj"
+},
+{
+  "directory": "D:/Document/ImmerLernen/opengl/Lightning/build",
+  "command": "D:\\Software\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/draw.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\draw.dir\\src\\main.cpp.obj -c D:\\Document\\ImmerLernen\\opengl\\Lightning\\src\\main.cpp",
+  "file": "D:/Document/ImmerLernen/opengl/Lightning/src/main.cpp",
+  "output": "CMakeFiles/draw.dir/src/main.cpp.obj"
+}
+]

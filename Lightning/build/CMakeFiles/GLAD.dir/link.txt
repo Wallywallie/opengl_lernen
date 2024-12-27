@@ -1,0 +1,2 @@
+D:\Software\Mingw\mingw64\bin\ar.exe qc libGLAD.a CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj CMakeFiles/GLAD.dir/src/shader.cpp.obj CMakeFiles/GLAD.dir/src/stb_image.cpp.obj
+D:\Software\Mingw\mingw64\bin\ranlib.exe libGLAD.a

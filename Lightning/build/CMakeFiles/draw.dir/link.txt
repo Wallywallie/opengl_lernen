@@ -1,0 +1,3 @@
+D:\Software\Cmake\Install\bin\cmake.exe -E rm -f CMakeFiles\draw.dir/objects.a
+D:\Software\Mingw\mingw64\bin\ar.exe qc CMakeFiles\draw.dir/objects.a @CMakeFiles\draw.dir\objects1.rsp
+D:\Software\Mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\draw.dir/objects.a -Wl,--no-whole-archive -o D:\Document\ImmerLernen\opengl\Lightning\bin\draw.exe -Wl,--out-implib,D:\Document\ImmerLernen\opengl\Lightning\bin\libdraw.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\draw.dir\linkLibs.rsp
