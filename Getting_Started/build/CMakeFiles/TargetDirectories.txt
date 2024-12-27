@@ -1,0 +1,4 @@
+D:/Document/ImmerLernen/opengl/Getting_Started/build/CMakeFiles/GLAD.dir
+D:/Document/ImmerLernen/opengl/Getting_Started/build/CMakeFiles/draw.dir
+D:/Document/ImmerLernen/opengl/Getting_Started/build/CMakeFiles/edit_cache.dir
+D:/Document/ImmerLernen/opengl/Getting_Started/build/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,0 @@
-D:/Document/ImmerLernen/opengl/build/CMakeFiles/GLAD.dir
-D:/Document/ImmerLernen/opengl/build/CMakeFiles/draw.dir
-D:/Document/ImmerLernen/opengl/build/CMakeFiles/edit_cache.dir
-D:/Document/ImmerLernen/opengl/build/CMakeFiles/rebuild_cache.dir
