@@ -340,4 +340,5 @@ CMakeFiles/draw.dir/src/main.cpp.obj: \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
  D:/Software/Mingw/mingw64/x86_64-w64-mingw32/include/string.h \
  D:/Software/Mingw/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- D:/Document/ImmerLernen/opengl/includes/glm/gtc/type_ptr.inl
+ D:/Document/ImmerLernen/opengl/includes/glm/gtc/type_ptr.inl \
+ D:/Document/ImmerLernen/opengl/includes/camera.h

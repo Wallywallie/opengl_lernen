@@ -178,4 +178,10 @@ glBindTexture(GL_TEXTURE_2D, texture);
 # Z-buffer | 深度缓冲
 深度测试(Depth Testing)：当片段想要输出它的颜色时，OpenGL会将它的深度值和z缓冲进行比较，如果当前的片段在其它片段之后，它将会被丢弃，否则将会覆盖。
 
+# 相机
+
+## 欧拉角(Euler Angle)
+俯仰角(Pitch)、偏航角(Yaw)和滚转角(Roll)
+![alt text](image-7.png)
+
 

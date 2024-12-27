@@ -6,6 +6,7 @@ CMakeFiles/draw.dir/src/main.cpp.obj
  D:/Document/ImmerLernen/opengl/dep/glad/include/KHR/khrplatform.h
  D:/Document/ImmerLernen/opengl/dep/glad/include/glad/glad.h
  D:/Document/ImmerLernen/opengl/dep/glfw/include/GLFW/glfw3.h
+ D:/Document/ImmerLernen/opengl/includes/camera.h
  D:/Document/ImmerLernen/opengl/includes/glm/common.hpp
  D:/Document/ImmerLernen/opengl/includes/glm/detail/_fixes.hpp
  D:/Document/ImmerLernen/opengl/includes/glm/detail/_vectorize.hpp

@@ -5,6 +5,7 @@ CMakeFiles/draw.dir/src/main.cpp.obj: D:/Document/ImmerLernen/opengl/src/main.cp
   D:/Document/ImmerLernen/opengl/dep/glad/include/KHR/khrplatform.h \
   D:/Document/ImmerLernen/opengl/dep/glad/include/glad/glad.h \
   D:/Document/ImmerLernen/opengl/dep/glfw/include/GLFW/glfw3.h \
+  D:/Document/ImmerLernen/opengl/includes/camera.h \
   D:/Document/ImmerLernen/opengl/includes/glm/common.hpp \
   D:/Document/ImmerLernen/opengl/includes/glm/detail/_fixes.hpp \
   D:/Document/ImmerLernen/opengl/includes/glm/detail/_vectorize.hpp \
@@ -359,12 +360,6 @@ D:/Document/ImmerLernen/opengl/dep/glad/include/glad/glad.h:
 
 D:/Document/ImmerLernen/opengl/includes/glm/detail/qualifier.hpp:
 
-D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
-
-D:/Document/ImmerLernen/opengl/includes/glm/detail/func_exponential.inl:
-
-D:/Document/ImmerLernen/opengl/includes/glm/detail/compute_common.hpp:
-
 D:/Document/ImmerLernen/opengl/includes/glm/vector_relational.hpp:
 
 D:/Document/ImmerLernen/opengl/includes/glm/detail/type_mat4x4.hpp:
@@ -377,9 +372,19 @@ D:/Document/ImmerLernen/opengl/includes/glm/common.hpp:
 
 D:/Document/ImmerLernen/opengl/dep/glfw/include/GLFW/glfw3.h:
 
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
+
+D:/Document/ImmerLernen/opengl/includes/camera.h:
+
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:
 
 D:/Document/ImmerLernen/opengl/includes/glm/detail/_vectorize.hpp:
+
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+D:/Document/ImmerLernen/opengl/includes/glm/detail/func_exponential.inl:
+
+D:/Document/ImmerLernen/opengl/includes/glm/detail/compute_common.hpp:
 
 D:/Document/ImmerLernen/opengl/includes/glm/mat3x2.hpp:
 
@@ -818,8 +823,6 @@ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basi
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc:
-
-D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
 
