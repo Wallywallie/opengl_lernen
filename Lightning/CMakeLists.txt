@@ -32,7 +32,7 @@ include_directories(${GLFW_INCLUDE_DIR} ${INCLUDES_DIR})
 
 #设置自定义的库
 set(SOURCES
-    src/shader.cpp
+    src/lightshader.cpp
     src/stb_image.cpp
 )
 

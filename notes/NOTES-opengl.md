@@ -184,4 +184,37 @@ glBindTexture(GL_TEXTURE_2D, texture);
 俯仰角(Pitch)、偏航角(Yaw)和滚转角(Roll)
 ![alt text](image-7.png)
 
+# 布林冯光照模型(Blinn-phong model)
+
+## 环境(Ambient)
+
+## 漫反射(Diffuse)
+
+![alt text](image-9.png)
+
+### 法线矩阵(Normal Matrix)
+由于法向量是一个方向向量，当物体应用model矩阵后，法向量会发生改变，其值不等于原法向量乘model
+![alt text](image-10.png)
+法线矩阵被定义为「模型矩阵左上角3x3部分的逆矩阵的转置矩阵」
+
+```
+Normal = mat3(transpose(inverse(model))) * aNormal;
+```
+求解推导：[法线矩阵推导](https://zhuanlan.zhihu.com/p/477868547)
+推导的核心要点在于，平面的切向量$\vec{T} \cdot {\vec{N}} = 0$，且$\vec{T}$乘model矩阵后方向不变
+
+注意：矩阵求逆是一项对于着色器开销很大的运算，因为它必须在场景中的每一个顶点上进行，所以应该尽可能地避免在着色器中进行求逆运算。最好先在CPU上计算出法线矩阵，再通过uniform把它传递给着色器
+
+
+
+## 镜面(Specular)
+强度取决于光线镜面反射角度与视线角度，为例简化计算通常使用半程向量与法线的点乘
+![alt text](image-11.png)
+
+反光度(Shininess)
+一个物体的反光度越高，反射光的能力越强，散射得越少，高光点就会越小。
+```
+float spec = pow(max(dot(viewDir, reflect), 0.0), shininess);
+```
+
 

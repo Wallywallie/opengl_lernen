@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj"
   "CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj.d"
-  "CMakeFiles/GLAD.dir/src/shader.cpp.obj"
-  "CMakeFiles/GLAD.dir/src/shader.cpp.obj.d"
+  "CMakeFiles/GLAD.dir/src/lightshader.cpp.obj"
+  "CMakeFiles/GLAD.dir/src/lightshader.cpp.obj.d"
   "CMakeFiles/GLAD.dir/src/stb_image.cpp.obj"
   "CMakeFiles/GLAD.dir/src/stb_image.cpp.obj.d"
   "libGLAD.a"

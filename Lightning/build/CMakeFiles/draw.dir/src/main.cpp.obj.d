@@ -379,7 +379,7 @@ CMakeFiles/draw.dir/src/main.cpp.obj: \
  D:/Software/Mingw/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  D:/Document/ImmerLernen/opengl/Lightning/includes/glm/gtc/type_ptr.inl \
  D:/Document/ImmerLernen/opengl/Lightning/includes/stb_image.h \
- D:/Document/ImmerLernen/opengl/Lightning/includes/shader.h \
+ D:/Document/ImmerLernen/opengl/Lightning/includes/lightshader.h \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \

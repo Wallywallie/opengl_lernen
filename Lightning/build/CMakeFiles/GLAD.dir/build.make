@@ -83,20 +83,20 @@ CMakeFiles/GLAD.dir/dep/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GLAD.dir/dep/glad/src/glad.c.s"
 	D:\Software\Mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Document\ImmerLernen\opengl\Lightning\dep\glad\src\glad.c -o CMakeFiles\GLAD.dir\dep\glad\src\glad.c.s
 
-CMakeFiles/GLAD.dir/src/shader.cpp.obj: CMakeFiles/GLAD.dir/flags.make
-CMakeFiles/GLAD.dir/src/shader.cpp.obj: CMakeFiles/GLAD.dir/includes_CXX.rsp
-CMakeFiles/GLAD.dir/src/shader.cpp.obj: D:/Document/ImmerLernen/opengl/Lightning/src/shader.cpp
-CMakeFiles/GLAD.dir/src/shader.cpp.obj: CMakeFiles/GLAD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Document\ImmerLernen\opengl\Lightning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GLAD.dir/src/shader.cpp.obj"
-	D:\Software\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLAD.dir/src/shader.cpp.obj -MF CMakeFiles\GLAD.dir\src\shader.cpp.obj.d -o CMakeFiles\GLAD.dir\src\shader.cpp.obj -c D:\Document\ImmerLernen\opengl\Lightning\src\shader.cpp
+CMakeFiles/GLAD.dir/src/lightshader.cpp.obj: CMakeFiles/GLAD.dir/flags.make
+CMakeFiles/GLAD.dir/src/lightshader.cpp.obj: CMakeFiles/GLAD.dir/includes_CXX.rsp
+CMakeFiles/GLAD.dir/src/lightshader.cpp.obj: D:/Document/ImmerLernen/opengl/Lightning/src/lightshader.cpp
+CMakeFiles/GLAD.dir/src/lightshader.cpp.obj: CMakeFiles/GLAD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Document\ImmerLernen\opengl\Lightning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GLAD.dir/src/lightshader.cpp.obj"
+	D:\Software\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLAD.dir/src/lightshader.cpp.obj -MF CMakeFiles\GLAD.dir\src\lightshader.cpp.obj.d -o CMakeFiles\GLAD.dir\src\lightshader.cpp.obj -c D:\Document\ImmerLernen\opengl\Lightning\src\lightshader.cpp
 
-CMakeFiles/GLAD.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLAD.dir/src/shader.cpp.i"
-	D:\Software\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Document\ImmerLernen\opengl\Lightning\src\shader.cpp > CMakeFiles\GLAD.dir\src\shader.cpp.i
+CMakeFiles/GLAD.dir/src/lightshader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLAD.dir/src/lightshader.cpp.i"
+	D:\Software\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Document\ImmerLernen\opengl\Lightning\src\lightshader.cpp > CMakeFiles\GLAD.dir\src\lightshader.cpp.i
 
-CMakeFiles/GLAD.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLAD.dir/src/shader.cpp.s"
-	D:\Software\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Document\ImmerLernen\opengl\Lightning\src\shader.cpp -o CMakeFiles\GLAD.dir\src\shader.cpp.s
+CMakeFiles/GLAD.dir/src/lightshader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLAD.dir/src/lightshader.cpp.s"
+	D:\Software\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Document\ImmerLernen\opengl\Lightning\src\lightshader.cpp -o CMakeFiles\GLAD.dir\src\lightshader.cpp.s
 
 CMakeFiles/GLAD.dir/src/stb_image.cpp.obj: CMakeFiles/GLAD.dir/flags.make
 CMakeFiles/GLAD.dir/src/stb_image.cpp.obj: CMakeFiles/GLAD.dir/includes_CXX.rsp
@@ -116,14 +116,14 @@ CMakeFiles/GLAD.dir/src/stb_image.cpp.s: cmake_force
 # Object files for target GLAD
 GLAD_OBJECTS = \
 "CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj" \
-"CMakeFiles/GLAD.dir/src/shader.cpp.obj" \
+"CMakeFiles/GLAD.dir/src/lightshader.cpp.obj" \
 "CMakeFiles/GLAD.dir/src/stb_image.cpp.obj"
 
 # External object files for target GLAD
 GLAD_EXTERNAL_OBJECTS =
 
 libGLAD.a: CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj
-libGLAD.a: CMakeFiles/GLAD.dir/src/shader.cpp.obj
+libGLAD.a: CMakeFiles/GLAD.dir/src/lightshader.cpp.obj
 libGLAD.a: CMakeFiles/GLAD.dir/src/stb_image.cpp.obj
 libGLAD.a: CMakeFiles/GLAD.dir/build.make
 libGLAD.a: CMakeFiles/GLAD.dir/link.txt

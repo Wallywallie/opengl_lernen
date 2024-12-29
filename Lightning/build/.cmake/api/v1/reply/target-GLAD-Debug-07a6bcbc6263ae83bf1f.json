@@ -143,7 +143,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "src/shader.cpp",
+			"path" : "src/lightshader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

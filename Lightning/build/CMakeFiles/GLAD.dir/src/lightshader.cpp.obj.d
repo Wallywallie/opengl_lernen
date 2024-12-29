@@ -1,5 +1,5 @@
-CMakeFiles/GLAD.dir/src/shader.cpp.obj: \
- D:\Document\ImmerLernen\opengl\Lightning\src\shader.cpp \
+CMakeFiles/GLAD.dir/src/lightshader.cpp.obj: \
+ D:\Document\ImmerLernen\opengl\Lightning\src\lightshader.cpp \
  D:/Document/ImmerLernen/opengl/Lightning/includes/lightshader.h \
  D:/Document/ImmerLernen/opengl/Lightning/dep/glad/include/glad/glad.h \
  D:/Document/ImmerLernen/opengl/Lightning/dep/glad/include/KHR/khrplatform.h \

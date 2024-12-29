@@ -165,6 +165,30 @@ dep/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/dep/glad/src/glad.c.s
 .PHONY : dep/glad/src/glad.c.s
 
+src/lightshader.obj: src/lightshader.cpp.obj
+.PHONY : src/lightshader.obj
+
+# target to build an object file
+src/lightshader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/lightshader.cpp.obj
+.PHONY : src/lightshader.cpp.obj
+
+src/lightshader.i: src/lightshader.cpp.i
+.PHONY : src/lightshader.i
+
+# target to preprocess a source file
+src/lightshader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/lightshader.cpp.i
+.PHONY : src/lightshader.cpp.i
+
+src/lightshader.s: src/lightshader.cpp.s
+.PHONY : src/lightshader.s
+
+# target to generate assembly for a file
+src/lightshader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/lightshader.cpp.s
+.PHONY : src/lightshader.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -188,30 +212,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\draw.dir\build.make CMakeFiles/draw.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/shader.obj: src/shader.cpp.obj
-.PHONY : src/shader.obj
-
-# target to build an object file
-src/shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/shader.cpp.obj
-.PHONY : src/shader.cpp.obj
-
-src/shader.i: src/shader.cpp.i
-.PHONY : src/shader.i
-
-# target to preprocess a source file
-src/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/shader.cpp.i
-.PHONY : src/shader.cpp.i
-
-src/shader.s: src/shader.cpp.s
-.PHONY : src/shader.s
-
-# target to generate assembly for a file
-src/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/shader.cpp.s
-.PHONY : src/shader.cpp.s
 
 src/stb_image.obj: src/stb_image.cpp.obj
 .PHONY : src/stb_image.obj
@@ -250,12 +250,12 @@ help:
 	@echo ... dep/glad/src/glad.obj
 	@echo ... dep/glad/src/glad.i
 	@echo ... dep/glad/src/glad.s
+	@echo ... src/lightshader.obj
+	@echo ... src/lightshader.i
+	@echo ... src/lightshader.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/shader.obj
-	@echo ... src/shader.i
-	@echo ... src/shader.s
 	@echo ... src/stb_image.obj
 	@echo ... src/stb_image.i
 	@echo ... src/stb_image.s

@@ -187,7 +187,7 @@ CMakeFiles/draw.dir/src/main.cpp.obj: D:/Document/ImmerLernen/opengl/Lightning/s
   D:/Document/ImmerLernen/opengl/Lightning/includes/glm/vec3.hpp \
   D:/Document/ImmerLernen/opengl/Lightning/includes/glm/vec4.hpp \
   D:/Document/ImmerLernen/opengl/Lightning/includes/glm/vector_relational.hpp \
-  D:/Document/ImmerLernen/opengl/Lightning/includes/shader.h \
+  D:/Document/ImmerLernen/opengl/Lightning/includes/lightshader.h \
   D:/Document/ImmerLernen/opengl/Lightning/includes/stb_image.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward/binders.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bit \
@@ -800,6 +800,8 @@ D:/Document/ImmerLernen/opengl/Lightning/includes/glm/ext/vector_uint1_sized.hpp
 
 D:/Document/ImmerLernen/opengl/Lightning/includes/glm/ext/vector_uint2.hpp:
 
+D:/Document/ImmerLernen/opengl/Lightning/includes/lightshader.h:
+
 D:/Document/ImmerLernen/opengl/Lightning/includes/glm/ext/vector_uint2_sized.hpp:
 
 D:/Document/ImmerLernen/opengl/Lightning/includes/glm/ext/vector_uint3.hpp:
@@ -891,8 +893,6 @@ D:/Document/ImmerLernen/opengl/Lightning/includes/glm/vec3.hpp:
 D:/Document/ImmerLernen/opengl/Lightning/includes/glm/vec4.hpp:
 
 D:/Document/ImmerLernen/opengl/Lightning/includes/glm/vector_relational.hpp:
-
-D:/Document/ImmerLernen/opengl/Lightning/includes/shader.h:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
 

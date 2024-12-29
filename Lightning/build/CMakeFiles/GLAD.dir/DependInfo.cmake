@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Document/ImmerLernen/opengl/Lightning/dep/glad/src/glad.c" "CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj" "gcc" "CMakeFiles/GLAD.dir/dep/glad/src/glad.c.obj.d"
-  "D:/Document/ImmerLernen/opengl/Lightning/src/shader.cpp" "CMakeFiles/GLAD.dir/src/shader.cpp.obj" "gcc" "CMakeFiles/GLAD.dir/src/shader.cpp.obj.d"
+  "D:/Document/ImmerLernen/opengl/Lightning/src/lightshader.cpp" "CMakeFiles/GLAD.dir/src/lightshader.cpp.obj" "gcc" "CMakeFiles/GLAD.dir/src/lightshader.cpp.obj.d"
   "D:/Document/ImmerLernen/opengl/Lightning/src/stb_image.cpp" "CMakeFiles/GLAD.dir/src/stb_image.cpp.obj" "gcc" "CMakeFiles/GLAD.dir/src/stb_image.cpp.obj.d"
   )
 

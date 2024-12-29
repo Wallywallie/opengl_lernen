@@ -10,7 +10,7 @@
 
 #include <stb_image.h>
 
-#include <shader.h>
+#include <lightshader.h>
 #include <camera.h>
 
 
@@ -21,48 +21,48 @@ void scoll_callback(GLFWwindow* window, double x_offset, double y_offset) ;
 void processInput(GLFWwindow *window);
 
 
-float vertices[] = {
-    -0.5f, -0.5f, -0.5f, 
-     0.5f, -0.5f, -0.5f,  
-     0.5f,  0.5f, -0.5f, 
-     0.5f,  0.5f, -0.5f, 
-    -0.5f,  0.5f, -0.5f, 
-    -0.5f, -0.5f, -0.5f, 
+float vertices[] = {        //nomal
+    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+    -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
 
-    -0.5f, -0.5f,  0.5f,  
-     0.5f, -0.5f,  0.5f, 
-     0.5f,  0.5f,  0.5f,  
-     0.5f,  0.5f,  0.5f, 
-    -0.5f,  0.5f,  0.5f,  
-    -0.5f, -0.5f,  0.5f,  
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
 
-    -0.5f,  0.5f,  0.5f,  
-    -0.5f,  0.5f, -0.5f, 
-    -0.5f, -0.5f, -0.5f, 
-    -0.5f, -0.5f, -0.5f,  
-    -0.5f, -0.5f,  0.5f,  
-    -0.5f,  0.5f,  0.5f,  
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
 
-     0.5f,  0.5f,  0.5f,  
-     0.5f,  0.5f, -0.5f,  
-     0.5f, -0.5f, -0.5f,  
-     0.5f, -0.5f, -0.5f, 
-     0.5f, -0.5f,  0.5f,  
-     0.5f,  0.5f,  0.5f,  
+     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
 
-    -0.5f, -0.5f, -0.5f, 
-     0.5f, -0.5f, -0.5f,  
-     0.5f, -0.5f,  0.5f,  
-     0.5f, -0.5f,  0.5f,  
-    -0.5f, -0.5f,  0.5f,  
-    -0.5f, -0.5f, -0.5f, 
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
 
-    -0.5f,  0.5f, -0.5f, 
-     0.5f,  0.5f, -0.5f,  
-     0.5f,  0.5f,  0.5f,  
-     0.5f,  0.5f,  0.5f,  
-    -0.5f,  0.5f,  0.5f,  
-    -0.5f,  0.5f, -0.5f
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
 };
 
 int screenHeight = 600;
@@ -75,6 +75,8 @@ double last_y = screenWidth/2;
 
 float delta_time = 0.f;
 float last_frame = 0.f;
+
+glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
 int main () {
     if (!glfwInit()) {
@@ -119,17 +121,43 @@ int main () {
     glGenVertexArrays(1, &VAO);
     glBindVertexArray(VAO);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE,3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);     
+
+    glBindVertexArray(0);//解绑
+
+    //为灯也创建一个VAO
+    unsigned int lightVAO;
+    glGenVertexArrays(1, &lightVAO);
+    glBindVertexArray(lightVAO);
+
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*) 0);
     glEnableVertexAttribArray(0);
 
-    std::filesystem::path vs_path = std::filesystem::current_path().parent_path() / "src/shader.vs";
-    std::filesystem::path fs_path = std::filesystem::current_path().parent_path() / "src/shader.fs";
-    Shader myShader(vs_path.string().c_str(), fs_path.string().c_str());
+    glBindVertexArray(0);
+
+
+
+
+
+    std::filesystem::path vs_path = std::filesystem::current_path() / "src/obj_shader.vs";
+    std::filesystem::path obj_fs_path = std::filesystem::current_path() / "src/obj_shader.fs";
+    std::filesystem::path light_fs_path = std::filesystem::current_path() / "src/light_shader.fs";
+    std::filesystem::path light_vs_path = std::filesystem::current_path() / "src/light_shader.vs";
+    Shader myShader(vs_path.string().c_str(), obj_fs_path.string().c_str());
+    Shader lightShader(light_vs_path.string().c_str(), light_fs_path.string().c_str());
 
     glEnable(GL_DEPTH_TEST);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
+
+    myShader.use();
+    myShader.setVec3("lightColor", glm::vec3(1.0f));
+    myShader.setVec3("lightPos", lightPos);
+    
+    
 
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
@@ -139,28 +167,43 @@ int main () {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //清空屏幕颜色缓冲和深度缓冲
 
 
-       delta_time = glfwGetTime() - last_frame;
-       last_frame = glfwGetTime();
+        delta_time = glfwGetTime() - last_frame;
+        last_frame = glfwGetTime();
 
-       glm::mat4 model(1.f);
-       glm::mat4 view = camera.getViewMatrix();
-       glm::mat4 projection = glm::perspective(glm::radians(camera.zoom), (float)screenWidth/screenHeight, 0.1f, 100.f);
-
-        int modelLoc = glGetUniformLocation(myShader.ID, "model");
-        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-        int viewLoc = glGetUniformLocation(myShader.ID, "view");
-        glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));       
-        int projectionLoc = glGetUniformLocation(myShader.ID, "projection");
-        glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+        glm::mat4 model(1.f);
+        glm::mat4 view = camera.getViewMatrix();
+        glm::mat4 projection = glm::perspective(glm::radians(camera.zoom), (float)screenWidth/screenHeight, 0.1f, 100.f);
+        glm::mat4 normalMatrix = glm::transpose(glm::inverse(model));
+        
+        myShader.use();
+        myShader.setMat4("model", model);
+        myShader.setMat4("view", view);
+        myShader.setMat4("projection", projection);
+        myShader.setMat4("normalMatrix", normalMatrix);
+        myShader.setVec3("viewerPos", camera.position);
 
 
         myShader.use();
         glBindVertexArray(VAO);
+        glDrawArrays(GL_TRIANGLES, 0, 36); 
+
+        
+        model = glm::mat4(1.f);
+        model = glm::translate(model, lightPos);
+        model = glm::scale(model, glm::vec3(0.2f));
+
+
+        lightShader.use();
+        lightShader.setMat4("model", model);
+        lightShader.setMat4("view", view);
+        lightShader.setMat4("projection", projection);    
+ 
+
+        lightShader.use();
+        glBindVertexArray(lightVAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
-
-
-
+       
 
         glfwSwapBuffers(window);
         glfwPollEvents();       
