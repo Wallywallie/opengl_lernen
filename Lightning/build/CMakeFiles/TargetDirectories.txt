@@ -1,4 +1,0 @@
-D:/Document/ImmerLernen/opengl/Lightning/build/CMakeFiles/GLAD.dir
-D:/Document/ImmerLernen/opengl/Lightning/build/CMakeFiles/draw.dir
-D:/Document/ImmerLernen/opengl/Lightning/build/CMakeFiles/edit_cache.dir
-D:/Document/ImmerLernen/opengl/Lightning/build/CMakeFiles/rebuild_cache.dir

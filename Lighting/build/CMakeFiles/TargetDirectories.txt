@@ -1,0 +1,4 @@
+D:/Document/ImmerLernen/opengl/Lighting/build/CMakeFiles/GLAD.dir
+D:/Document/ImmerLernen/opengl/Lighting/build/CMakeFiles/draw.dir
+D:/Document/ImmerLernen/opengl/Lighting/build/CMakeFiles/edit_cache.dir
+D:/Document/ImmerLernen/opengl/Lighting/build/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,6 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/Lightning",
-    "cmake.buildDirectory": "${workspaceFolder}/Lightning/build",
+    "cmake.sourceDirectory": "${workspaceFolder}/Lighting",
+    "cmake.buildDirectory": "${workspaceFolder}/Lighting/build",
     "files.associations": {
         "algorithm": "cpp",
         "atomic": "cpp",
