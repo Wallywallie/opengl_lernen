@@ -7,8 +7,28 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <vector>
 
 #include <glm/gtc/type_ptr.hpp>
+
+struct PointLight{
+    glm::vec3 position;
+    glm::vec3 ambient;
+    glm::vec3 diffuse;
+    glm::vec3 specular;
+
+    float constant;
+    float linear;
+    float quadratic;
+};
+struct DirLight {
+    glm::vec3 direction;
+
+    glm::vec3 ambient;
+    glm::vec3 diffuse;
+    glm::vec3 specular;
+};
+
 
 class Shader{
 public:
@@ -28,6 +48,10 @@ public:
     void setVec3(const std::string &name, const glm::vec3 &value) const;
 
     void setMat4(const std::string &name, const glm::mat4 &value) const;
+
+    void setPointLights(const std::string &name, const std::vector<PointLight> &pointlights ) const;
+
+    void setDirLights(const std::string &name, const DirLight &dirlight  ) const;
 
 };
 

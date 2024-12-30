@@ -41,7 +41,7 @@ add_library(GLAD STATIC ${GLAD_LIBRARY} ${SOURCES})
 target_include_directories(GLAD PUBLIC ${GLAD_INCLUDE_DIR})
 
 # 添加源文件
-add_executable(draw src/main.cpp )
+add_executable(draw src/main.cpp ) 
 
 
 # 链接 GLFW 库到可执行文件

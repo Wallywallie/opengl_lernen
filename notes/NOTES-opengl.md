@@ -217,4 +217,15 @@ Normal = mat3(transpose(inverse(model))) * aNormal;
 float spec = pow(max(dot(viewDir, reflect), 0.0), shininess);
 ```
 
+# 贴图
+
+## 漫反射贴图(Diffuse Map)
+
+# 光照
+
+光的衰减(Attenuation)
+$ F_{att} = \frac {1.0} {K_c + K_l * d + K_q * d^2} $
+![alt text](image-16.png)
+
+
 

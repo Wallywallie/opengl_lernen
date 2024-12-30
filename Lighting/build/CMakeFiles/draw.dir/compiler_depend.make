@@ -249,12 +249,15 @@ CMakeFiles/draw.dir/src/main.cpp.obj: D:/Document/ImmerLernen/opengl/Lighting/sr
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_abs.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algobase.h \
+  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_construct.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_function.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_types.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_pair.h \
+  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf.tcc \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf_iterator.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc \
@@ -263,6 +266,7 @@ CMakeFiles/draw.dir/src/main.cpp.obj: D:/Document/ImmerLernen/opengl/Lighting/sr
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h \
+  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cassert \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype \
@@ -327,6 +331,7 @@ CMakeFiles/draw.dir/src/main.cpp.obj: D:/Document/ImmerLernen/opengl/Lighting/sr
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tuple \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo \
+  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -726,6 +731,8 @@ D:/Document/ImmerLernen/opengl/Lighting/includes/glm/gtc/vec1.hpp:
 
 D:/Document/ImmerLernen/opengl/Lighting/includes/glm/ext/vector_bool1_precision.hpp:
 
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h:
+
 D:/Document/ImmerLernen/opengl/Lighting/includes/glm/vec2.hpp:
 
 D:/Document/ImmerLernen/opengl/Lighting/includes/glm/ext/vector_double1.hpp:
@@ -976,6 +983,8 @@ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sst
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_abs.h:
 
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h:
+
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_construct.h:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_function.h:
@@ -983,6 +992,8 @@ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator.h:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc:
 
@@ -993,6 +1004,8 @@ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uni
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h:
+
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h:
 
@@ -1087,6 +1100,8 @@ D:/Software/Mingw/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo:
+
+D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector:
 
 D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 

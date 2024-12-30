@@ -106,3 +106,31 @@ void Shader::setVec3(const std::string &name, const glm::vec3 &value) const {
 void Shader::setMat4(const std::string &name, const glm::mat4 &value) const {
     glUniformMatrix4fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE, glm::value_ptr(value));
 }
+
+void Shader::setPointLights(const std::string &name, const std::vector<PointLight> &pointlights ) const{
+    for (int i = 0; i < pointlights.size(); ++i) {
+        std::string index = std::to_string(i);
+
+        glUniform3fv(glGetUniformLocation(ID, (name + "[" + index + "].position").c_str()), 1, glm::value_ptr(pointlights[i].position));
+        glUniform3fv(glGetUniformLocation(ID, (name + "[" + index + "].ambient").c_str()), 1, glm::value_ptr(pointlights[i].ambient));
+        glUniform3fv(glGetUniformLocation(ID, (name + "[" + index + "].diffuse").c_str()), 1, glm::value_ptr(pointlights[i].diffuse));
+        glUniform3fv(glGetUniformLocation(ID, (name + "[" + index + "].specular").c_str()), 1, glm::value_ptr(pointlights[i].specular));
+
+        glUniform1f(glGetUniformLocation(ID, (name + "[" + index + "].constant").c_str()), pointlights[i].constant);
+        glUniform1f(glGetUniformLocation(ID, (name + "[" + index + "].linear").c_str()), pointlights[i].linear);
+        glUniform1f(glGetUniformLocation(ID, (name + "[" + index + "].quadratic").c_str()), pointlights[i].quadratic);        
+    }
+
+
+    
+}
+
+void Shader::setDirLights(const std::string &name, const DirLight &dirlight ) const{
+
+
+glUniform3fv(glGetUniformLocation(ID, (name + ".direction").c_str()), 1, glm::value_ptr(dirlight.direction));
+glUniform3fv(glGetUniformLocation(ID, (name + ".ambient").c_str()), 1, glm::value_ptr(dirlight.ambient));
+glUniform3fv(glGetUniformLocation(ID, (name + ".diffuse").c_str()), 1, glm::value_ptr(dirlight.diffuse));
+glUniform3fv(glGetUniformLocation(ID, (name + ".specular").c_str()), 1, glm::value_ptr(dirlight.specular));
+    
+}

@@ -145,6 +145,11 @@ CMakeFiles/GLAD.dir/src/lightshader.cpp.obj: \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
  D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
+ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
+ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
+ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
+ D:/Software/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
  D:/Document/ImmerLernen/opengl/Lighting/includes/glm/gtc/type_ptr.hpp \
  D:/Document/ImmerLernen/opengl/Lighting/includes/glm/gtc/quaternion.hpp \
  D:/Document/ImmerLernen/opengl/Lighting/includes/glm/gtc/constants.hpp \
